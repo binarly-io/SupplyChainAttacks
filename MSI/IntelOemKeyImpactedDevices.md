@@ -6,9 +6,7 @@
 
 Based on [Intel documentation](https://www.intel.com/content/www/us/en/developer/articles/technical/software-security-guidance/secure-coding/intel-debug-technology.html), it appears to be more powerful in comparison to Boot Guard keys.
 
-```
-Protection Class “OxM” (historically also known as “Orange” or “OEM Unlocked”) is where the debugger must authorize and unlock before the class is established and additional debug capabilities are enabled. Since this is limited to only using the Platform Manufacturer's authentication key, the only assumed set of debuggers is the Platform Manufacturer themselves. It is assumed that the Platform Manufacturer will not share their authentication key with any other set of debuggers. 
-```
+"Protection Class “OxM” (historically also known as “Orange” or “OEM Unlocked”) is where the debugger must authorize and unlock before the class is established and additional debug capabilities are enabled. Since this is limited to only using the Platform Manufacturer's authentication key, the only assumed set of debuggers is the Platform Manufacturer themselves. It is assumed that the Platform Manufacturer will not share their authentication key with any other set of debuggers."
 
 ### Affected HP products:
 
