@@ -8,14 +8,14 @@ Based on [Intel documentation](https://www.intel.com/content/www/us/en/developer
 
 "Protection Class “OxM” (historically also known as “Orange” or “OEM Unlocked”) is where the debugger must authorize and unlock before the class is established and additional debug capabilities are enabled. Since this is limited to only using the Platform Manufacturer's authentication key, the only assumed set of debuggers is the Platform Manufacturer themselves. It is assumed that the Platform Manufacturer will not share their authentication key with any other set of debuggers."
 
-### Affected HP products:
+### Affected HP (GLK) products:
 
 ```
 hp-t430-thin-client
 hp-t638-thin-client
 ```
 
-### Affected Lenovo products:
+### Affected Lenovo (GLK) products:
 
 ```
 aio-330-20igm
@@ -25,21 +25,21 @@ v130
 310s-08igm
 ```
 
-### Affected AOPEN products:
+### Affected Star Labs (GLK) products:
+
+```
+StarLite MkIII
+StarLite MkIV
+```
+
+### Affected AOPEN (APL) products:
 
 ```
 iAPLx-DE(TAA30 TEST)
 ```
 
-### Affected CompuLab products:
+### Affected CompuLab (APL) products:
 
 ```
 flt2
-```
-
-### Affected Star Labs products:
-
-```
-StarLite MkIII
-StarLite MkIV
 ```
