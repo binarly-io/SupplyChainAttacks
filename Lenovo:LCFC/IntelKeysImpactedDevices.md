@@ -35,8 +35,7 @@ yoga-slim-7-pro-14iap7
 ## Affected Supermicro products:
 
 ```
-C7C242C0_131
-C7C242C0_527
+C7C242C0 
 SYS-110A-16C-RN10SP
 SYS-110D-4C-FRAN8TP
 SYS-110D-14C-FRDN8TP
