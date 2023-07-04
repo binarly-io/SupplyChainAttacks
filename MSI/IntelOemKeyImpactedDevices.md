@@ -43,3 +43,11 @@ iAPLx-DE(TAA30 TEST)
 ```
 flt2
 ```
+
+### Affected Gigabyte (APL) products:
+
+```
+GB-BPCE-3350C (rev. 1.0)
+GB-EAPD-4200 (rev. 1.0)
+MZAPLAI (rev. 1.0)
+```
