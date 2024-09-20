@@ -875,3 +875,55 @@ Certificate:
  b10dri7_615 
 ```
 
+
+## Detected Products vulnerable to Supermicro BMC Test Key
+
+The products listed in this document use an insecure RSA signing key (RD1 BMC Test Key - DO NOT TRUST) to implement the BMC Root of Trust security feature:
+```
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            1a:da:e6:cf:23:66:6a:36:d9:dd:69:4c:2f:ba:30:14:90:f7:3d:5e
+        Signature Algorithm: sha512WithRSAEncryption
+        Issuer: C = US, ST = CA, L = SanJose, O = Super Micro Computer Inc., CN = RD1 BMC Test Key - DO NOT TRUST
+        Validity
+            Not Before: Feb 14 03:14:28 2020 GMT
+            Not After : Feb  1 03:14:28 2070 GMT
+        Subject: C = US, ST = CA, L = SanJose, O = Super Micro Computer Inc., CN = RD1 BMC Test Key - DO NOT TRUST
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (4096 bit)
+                Modulus:
+                    00:c6:b3:42:c9:36:c3:a1:24:0c:ec:e5:1a:31:96:
+                    ...
+```
+
+### Affected Supermicro Products
+```
+B13DEE
+B13DET
+B13SEE-CPU-25G
+B13SEG
+B4SA1-CPU
+B4SC1-CPU
+G1SMH
+G1SMH-G
+H13SRH
+X12DGQ-R
+X12DPG-QR
+X13DEG-QT
+X13DEM
+X13DSF-A
+X13OEI-CPU
+X13QEH+
+X13SEDW-F
+X13SEED-F
+X13SEED-SF
+X13SEFR-A
+X13SEM-F
+X13SEM-TF
+X13SET-G
+X13SET-GC
+X13SET-PT
+```
